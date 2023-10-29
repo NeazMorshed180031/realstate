@@ -8,3 +8,5 @@ router.get("/test", test);
 router.post('/update/:id',verifyUser,updateUser)
 
 export default router;
+
+ 
